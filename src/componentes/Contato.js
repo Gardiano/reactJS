@@ -1,6 +1,7 @@
 
 
 import React from 'react'
+
 const Contato = _props => {
 
     return (
@@ -17,16 +18,16 @@ const Contato = _props => {
     <div className="col-sm-7">
       <div className="row">
         <div className="col-sm-6 form-group">
-          <input className="form-control" id="name" name="name" placeholder="Name" type="text" required />
+          <input className="form-control" id="name" name="name" placeholder="Nome:" type="text" required />
         </div>
         <div className="col-sm-6 form-group">
-          <input className="form-control" id="email" name="email" placeholder="Email" type="email" required />
+          <input className="form-control" id="email" name="email" placeholder="Email:" type="email" required />
         </div>
       </div>
-      <textarea className="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br />
+      <textarea className="form-control" id="comments" name="comments" placeholder="Digite seu texto aqui:" rows="5"></textarea><br />
       <div className="row">
         <div className="col-sm-12 form-group">
-          <button className="btn btn-default pull-right" type="submit">Send</button>
+          <button className="btn btn-default pull-right" type="submit">Enviar</button>
         </div>
       </div>
     </div>
